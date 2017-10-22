@@ -16,7 +16,8 @@ webpack-dev-server serves assets from memory, which means that on development mo
 ``` http://localhost:8080/[name].css ``` and ``` http://localhost:8080/[name].js ```. 
 When you switch to production you remove these links and remove the comment tags from the asset links to the current directory. 
 I added comments in the functions.php file to make it more clear. 
-Keep in mind that you need to run ``` npm run dev ```, otherwise you get 404 on the development asset links.
+
+Keep in mind that you need to run ``` npm run dev ```, otherwise you would get 404 on the development asset links.
 
 ## Commands
 1. ``` npm run build ``` Will compile and minify assets for produciton.
